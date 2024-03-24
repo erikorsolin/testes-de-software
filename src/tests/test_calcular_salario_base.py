@@ -1,3 +1,8 @@
+# Técnica: caixa preta (baseada em especificação)
+# Nível: teste de unidade
+# Tipo: teste funcional
+# Divisão de entradas: por classes de equivalência e valor limite
+
 import unittest
 from vendedor import Vendedor
 
