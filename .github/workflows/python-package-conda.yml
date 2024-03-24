@@ -23,5 +23,4 @@ jobs:
         #pip install -r requirements.txt
     - name: Run unittest
       run: |
-        cd src
-        python3 -m unittest discover tests
+        python3 -m unittest discover -s src/tests -p "*_test.py"
