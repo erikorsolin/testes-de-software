@@ -1,0 +1,10 @@
+name: testes-de-software-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - coverage
+  - flake8
+  - pytest
+  # Adicione outras dependências necessárias para o seu projeto aqui
