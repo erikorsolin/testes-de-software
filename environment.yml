@@ -6,7 +6,6 @@ dependencies:
   - python=3.10
   - coverage
   - flake8
-  - unittest
   
 options:
   use_conda_directly: true
