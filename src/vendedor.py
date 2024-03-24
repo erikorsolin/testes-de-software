@@ -1,8 +1,3 @@
-# Técnica: caixa preta (baseada em especificação)
-# Nível: teste de unidade
-# Tipo: teste funcional
-# Divisão de entradas: por classes de equivalência e valor limite
-
 class Vendedor:
     def __init__(self, nome: str, meses_contratado: int, valor_em_vendas: float) -> object:
         self.nome = nome
@@ -23,9 +18,9 @@ class Vendedor:
             return 3000.0
         
     def calcular_comissao(self) -> float:
-        if self.valor_em_vendas < 10000.0:
+        if self.valor_em_vendas <= 10000.0:
             return 0.03
-        elif self.valor_em_vendas > 1000.0 and self.valor_em_vendas < 50000.0:
+        elif self.valor_em_vendas > 10000.0 and self.valor_em_vendas <= 50000.0:
             return 0.05
         elif self.valor_em_vendas > 50000.0:
             return 0.1
