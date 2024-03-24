@@ -35,6 +35,10 @@ Os testes são projetados com base nas seguintes especificações:
 - Particionamento em Classes de Equivalência: As entradas são divididas em classes de equivalência, onde cada classe representa um conjunto de entradas que devem produzir resultados semelhantes. Isso ajuda a garantir uma cobertura abrangente dos cenários de teste.
 - Análise de Valor Limite: Os testes incluem valores nos limites das classes de equivalência, bem como valores que estão fora desses limites, para garantir que o software lide corretamente com esses casos extremos.
 
+## Automação dos Testes com GitHub Actions
+
+Este projeto utiliza o GitHub Actions para automatizar a execução dos testes de unidade sempre que um novo código é enviado (push) para a branch main. Essa automação faz parte das práticas de Integração Contínua (CI), garantindo que todos os testes sejam executados automaticamente e que qualquer erro ou falha seja identificado imediatamente antes de mais alterações serem introduzidas no código base.
+
 ## Importância dos Testes
 
 Os testes em um software são essenciais para garantir sua qualidade e confiabilidade. Eles ajudam a identificar e corrigir erros de forma precoce no ciclo de desenvolvimento, reduzindo o custo e o risco de falhas no software em produção. Além disso, os testes fornecem uma documentação viva do comportamento esperado do software, facilitando a manutenção e evolução do sistema ao longo do tempo.
