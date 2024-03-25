@@ -1,4 +1,4 @@
-# Testes de Software
+# 🎯 Testes de Software
 
 Este repositório contém um projeto simples de um sistema de cálculo de salário, desenvolvido como parte de um estudo sobre Testes de Software. O objetivo principal deste projeto é demonstrar a aplicação de testes de nível de unidade utilizando a técnica de caixa preta, baseada em especificação.
 
