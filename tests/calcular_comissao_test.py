@@ -32,4 +32,8 @@ class TestCalcularComissao(unittest.TestCase):
             vendedor = Vendedor("Victor", 0, 50000.01)
             self.assertEqual(vendedor.calcular_comissao(), 0.1)
         
+        def test_ct07(self):
+            vendedor = Vendedor("Victor", 0, 99999.99)
+            self.assertEqual(vendedor.calcular_comissao(), 0.1)
+        
      
