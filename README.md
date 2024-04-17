@@ -2,9 +2,9 @@
 
 Este repositório contém um projeto simples de um sistema de cálculo de salário, desenvolvido como parte de um estudo sobre Testes de Software. O objetivo principal deste projeto é demonstrar a aplicação de testes de nível de unidade utilizando a técnica de caixa preta, baseada em especificação.
 
-## Requisitos de Negócio
+## Regras de Negócio
 
-Os requisitos de negócio para o software podem ser encontrados no arquivo `requisitos.pdf`. Este documento descreve as regras de negócio do sistema, que incluem:
+As regras de negócio para o software podem ser encontradas no arquivo `requisitos.pdf`. Elas incluem:
 
 - Cálculo do salário base com base no tempo de contrato.
 - Cálculo da comissão com base no valor total das vendas do funcionário.
